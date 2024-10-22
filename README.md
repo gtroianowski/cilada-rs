@@ -65,6 +65,15 @@ cargo run -- --variant <variant number from 1 to 50>
 
 # Algorithm
 
-The code operates as follows
+The code operates as follows:
 
-- For each square on the board, determine which pieces 
+- For each square on the board, determine which pieces are fit to cover that square
+- Recursively:
+    - Pick a square with the smallest number of covering pieces.
+    - Add it to a set of placed pieces
+    - Eliminate any piece covering a neighboring square that would overlap with the placed piece
+    - If the pieces of this type are exhausted, eliminate pieces of this type from the list of pieces covering other
+      squares
+    - Repeat the procedure.
+
+The code thus constructs all the combinations of placed pieces on the board that constitute each solution.
