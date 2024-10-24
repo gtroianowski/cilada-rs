@@ -1,3 +1,5 @@
+<p align="center"><img src="https://github.com/user-attachments/assets/e8e0fbf6-ae60-46c8-8c3c-5349e0c95c45" width="200"></p>
+
 This is a solver for the [Cilada](https://www.estrela.com.br/jogo-cilada-estrela/p) puzzle game which consist in placing
 on a board a predefined set of pieces of two shape (`I` shaped `2x1` pieces and `L` shaped `2X2` pieces) matching the
 shape of the holes of piece with that of the corresponding square on the board.
